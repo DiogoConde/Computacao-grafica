@@ -156,7 +156,7 @@ def desenha():
     GL.glUniformMatrix4fv(GL.glGetUniformLocation(progId, "mvp"),1,GL.GL_FALSE,glm.value_ptr(mvp))
     GL.glDrawElements(GL.GL_TRIANGLES,36,GL.GL_UNSIGNED_SHORT,ctypes.c_void_p(0))
 
-    a += 0.01
+    a += 0.00005
 
     projection = glm.perspective(math.pi/4,800/600,0.1,100)
     camera = glm.lookAt(glm.vec3(0,3,9),glm.vec3(2,-1.5,0),glm.vec3(0,1,0))
@@ -168,7 +168,7 @@ def desenha():
     GL.glUniformMatrix4fv(GL.glGetUniformLocation(progId, "mvp"),1,GL.GL_FALSE,glm.value_ptr(mvp))
     GL.glDrawElements(GL.GL_TRIANGLES,36,GL.GL_UNSIGNED_SHORT,ctypes.c_void_p(0))
 
-    a += 0.01
+    a += 0.00005
 
     projection = glm.perspective(math.pi/4,800/600,0.1,100)
     camera = glm.lookAt(glm.vec3(0,3,9),glm.vec3(2,1.5,0),glm.vec3(0,1,0))
@@ -180,7 +180,7 @@ def desenha():
     GL.glUniformMatrix4fv(GL.glGetUniformLocation(progId, "mvp"),1,GL.GL_FALSE,glm.value_ptr(mvp))
     GL.glDrawElements(GL.GL_TRIANGLES,36,GL.GL_UNSIGNED_SHORT,ctypes.c_void_p(0))
 
-    a += 0.01
+    a += 0.00005
 
     projection = glm.perspective(math.pi/4,800/600,0.1,100)
     camera = glm.lookAt(glm.vec3(0,3,9),glm.vec3(-2,1.5,0),glm.vec3(0,1,0))
@@ -192,7 +192,7 @@ def desenha():
     GL.glUniformMatrix4fv(GL.glGetUniformLocation(progId, "mvp"),1,GL.GL_FALSE,glm.value_ptr(mvp))
     GL.glDrawElements(GL.GL_TRIANGLES,36,GL.GL_UNSIGNED_SHORT,ctypes.c_void_p(0))
 
-    a += 0.01
+    a += 0.00005
 
 
 def main():
