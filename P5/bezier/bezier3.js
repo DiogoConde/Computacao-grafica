@@ -1,3 +1,4 @@
+//Grupo: Diogo Conde Soler Teixeira dos Santos
 let pontos = [];
 
 let selecionado = null;

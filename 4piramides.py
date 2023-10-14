@@ -1,3 +1,6 @@
+#Grupo: Diogo Conde Soler Teixeira dos Santos, 
+#Gabriel Franco Barreto da Silva e 
+#Gabriel do Nascimento Alves
 from OpenGL import GL
 from array import array
 import ctypes
