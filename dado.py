@@ -175,7 +175,7 @@ def desenha():
     GL.glUniformMatrix4fv(GL.glGetUniformLocation(progId, "mvp"),1,GL.GL_FALSE,glm.value_ptr(mvp))
     GL.glDrawArrays(GL.GL_TRIANGLES,0,36)
 
-    a += 0.008
+    a += 0.0008
 
 
 def main():
@@ -186,7 +186,7 @@ def main():
     glfw.window_hint(glfw.OPENGL_PROFILE, glfw.OPENGL_CORE_PROFILE)
     glfw.window_hint(glfw.OPENGL_FORWARD_COMPAT, GL.GL_TRUE)
     glfw.window_hint(glfw.SAMPLES, 4)
-    window = glfw.create_window(800, 600, "Cubo", None, None)
+    window = glfw.create_window(800, 600, "Dado", None, None)
     if not window:
         glfw.terminate()
         return
